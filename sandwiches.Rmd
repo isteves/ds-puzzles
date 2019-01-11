@@ -1,5 +1,5 @@
 ---
-title: "Sandwiches"
+title: "Sample data walk-through"
 output: md_document
 ---
 
@@ -10,11 +10,7 @@ options(tidyverse.quiet = TRUE)
 
 ![](https://www.flickr.com/photos/skywhisperer/5724550360/)
 
-## Puzzle
-
-The neighborhood sandwich store makes the best sandwiches! They’ve got everything from classics like BLTs to more unusual options like Fluffernutters. Since many of their specialty ingredients keep going bad, they've decided to cut their selection and only focus on their best-selling sandwich. 
-
-To help with the decision, the storeowners have collected data on their customers’ favorite sandwiches. Most people listed several varieties (in no particular order). Here’s a sample of the data:
+In the puzzle, we're given some sample data to use as a _test case_. That is, if we can determine the most popular sandwich in our sample, we'll be most--if not all--of the way to answering this question for our full dataset.
 
 ```{r warning = FALSE, echo = FALSE}
 library(tidyverse)
@@ -31,13 +27,7 @@ sw <- tibble::tribble(
 sw %>% knitr::kable()
 ```
 
-In this sample, the Dagwood sandwich is the most popular. 
-
-In the full dataset, **what is the most popular sandwich among the customers?**
-
-## Solution
-
-Let's take a look at the file in R. Note that there are a few non-English letters that could give you some trouble depending on how you import the data into R. Sometimes the letters get "translated" into a mix of letters and punctuation (i.e. "ChoripÃ¡n" rather than "Choripán").
+Let's take a look at the sample data in tibble-mode. Note that there are a few non-English letters that could give you some trouble depending on how you import the data into R. Sometimes the letters get "translated" into a mix of letters and punctuation (i.e. "ChoripÃ¡n" rather than "Choripán").
 
 ```{r}
 sw
