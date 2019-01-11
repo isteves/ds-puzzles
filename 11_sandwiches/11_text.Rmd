@@ -1,0 +1,32 @@
+---
+output: html_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE)
+library(tidyverse)
+```
+
+The neighborhood sandwich store makes the _best_ sandwiches! They’ve got everything from classics like BLTs to more unusual options like Fluffernutters. Since many of their specialty ingredients keep going bad, they've decided to cut their selection and only focus on their best-selling sandwich. 
+
+To help with the decision, the storeowners have collected data on their customers’ favorite sandwiches. Most people listed several varieties (in no particular order). Here’s a sample of the data:
+
+```{r warning = FALSE, echo = FALSE}
+library(tidyverse)
+sw <- tibble::tribble(
+          ~names, ~sandwiches,
+          "Abby", "Denver; BLT; Torta ahogada; Barbecue",
+       "Abigail", "BLT; Ftira; Primanti; Ice cream; Choripán",
+          "Adam", "Corned beef; Montadito; Cheesesteak; Tripleta; Dagwood; Jambon-beurre",
+         "Alexa", "Dagwood; Mortadella",
+    "Alexandria", "Slider; Beschuit met muisjes; Chicken salad",
+           "Ana", "Fried brain; Polish boy; Vegetable; Pudgy Pie; Dagwood"
+    )
+
+sw %>% knitr::kable()
+```
+
+In this sample, the Dagwood sandwich is the most popular. 
+
+In the full dataset, **what is the most popular sandwich among the customers?**
+
