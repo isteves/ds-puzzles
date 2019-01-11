@@ -1,8 +1,6 @@
 ---
 title: "Sandwiches"
-output: 
-    html_document:
-        keep_md: true
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
