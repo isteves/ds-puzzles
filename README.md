@@ -14,3 +14,38 @@ accompanying Tidies of March package. I will show how this package
 models best practices for both data wrangling and project management.
 
 [![](img/title-slide.png)](https://speakerdeck.com/isteves/teaching-data-science-with-puzzles)
+
+If you’d like to take a closer look at the sandwiches example from the
+talk, check out the [sandwiches
+folder](https://github.com/isteves/ds-puzzles/tree/master/11_sandwiches)
+in this repo.
+
+Additional resources
+--------------------
+
+-   [How to name
+    files](https://speakerdeck.com/jennybc/how-to-name-files) talk by
+    Jenny Bryan
+-   [Blogpost](https://irene.rbind.io/post/summer-rstudio/) about my
+    internship experience
+
+Packages mentioned in my talk:
+
+-   [usethis](https://usethis.r-lib.org/) - a workflow package: it
+    automates repetitive tasks that arise during project setup and
+    development, both for R packages and non-package projects
+-   [testthat](https://testthat.r-lib.org/) - to make testing fun
+-   [testrmd](https://github.com/ropenscilabs/testrmd) - test chunks for
+    RMarkdown
+-   [reprex](https://reprex.tidyverse.org/) - render bits of R code for
+    sharing, e.g., on GitHub or StackOverflow
+
+Thank yous
+----------
+
+A big thanks to the Tidyverse team, fellow interns, and RStudio folks
+for a fun & interesting summer!
+
+Also thanks to Maria Novosolov, Alex Slavenko, Alex Hayes, Steven Chong,
+and Julien Brun for their comments and support in early versions of this
+talk!
