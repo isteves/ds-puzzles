@@ -26,8 +26,12 @@ Additional resources
 -   [How to name
     files](https://speakerdeck.com/jennybc/how-to-name-files) talk by
     Jenny Bryan
--   [Blogpost](https://irene.rbind.io/post/summer-rstudio/) about my
-    internship experience
+-   [A summer of puzzles at
+    RStudio](https://irene.rbind.io/post/summer-rstudio/) blogpost about
+    my internship experience
+-   [it’s not the maths, it’s the code - how testing has changed my
+    workflow](http://cantabile.rbind.io/posts/2019-01-05-its-not-not-the-math-its-the-code/)
+    blogpost by Charles T. Gray
 
 Packages mentioned in my talk:
 

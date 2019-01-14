@@ -13,8 +13,9 @@ If you'd like to take a closer look at the sandwiches example from the talk, che
 ## Additional resources
 
 - [How to name files](https://speakerdeck.com/jennybc/how-to-name-files) talk by Jenny Bryan
-- [Blogpost](https://irene.rbind.io/post/summer-rstudio/) about my internship experience 
-
+- [A summer of puzzles at RStudio](https://irene.rbind.io/post/summer-rstudio/) blogpost about my internship experience 
+- [it’s not the maths, it’s the code - how testing has changed my workflow](http://cantabile.rbind.io/posts/2019-01-05-its-not-not-the-math-its-the-code/) blogpost by Charles T. Gray
+ 
 Packages mentioned in my talk:
 
 - [usethis](https://usethis.r-lib.org/) - a workflow package: it automates repetitive tasks that arise during project setup and development, both for R packages and non-package projects
