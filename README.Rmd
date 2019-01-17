@@ -22,6 +22,7 @@ Packages mentioned in my talk:
 - [testthat](https://testthat.r-lib.org/) - to make testing fun
 - [testrmd](https://github.com/ropenscilabs/testrmd) - test chunks for RMarkdown
 - [reprex](https://reprex.tidyverse.org/) - render bits of R code for sharing, e.g., on GitHub or StackOverflow
+- [rmarkdown](https://rmarkdown.rstudio.com/) - create reproducible text and analyses 
 
 ## Thank yous
 

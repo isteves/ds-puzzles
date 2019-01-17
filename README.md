@@ -43,6 +43,8 @@ Packages mentioned in my talk:
     RMarkdown
 -   [reprex](https://reprex.tidyverse.org/) - render bits of R code for
     sharing, e.g., on GitHub or StackOverflow
+-   [rmarkdown](https://rmarkdown.rstudio.com/) - create reproducible
+    text and analyses
 
 Thank yous
 ----------
