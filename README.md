@@ -1,7 +1,7 @@
 Teaching data science with puzzles
 ==================================
 
-### rstudio::conf 2019, [slides](https://speakerdeck.com/isteves/teaching-data-science-with-puzzles)
+### rstudio::conf 2019, [slides](https://speakerdeck.com/isteves/teaching-data-science-with-puzzles), [video](https://resources.rstudio.com/rstudio-conf-2019/teaching-data-science-with-puzzles)
 
 Of the many coding puzzles on the web, few focus on the programming
 skills needed for handling untidy data. During my summer internship at
