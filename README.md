@@ -15,7 +15,7 @@ provide access to puzzles and puzzle data directly in R through an
 accompanying Tidies of March package. I will show how this package
 models best practices for both data wrangling and project management.
 
-![](img/title-slide.png)]
+![](img/title-slide.png)
 
 If you'd like to take a closer look at the sandwiches example from the
 talk, check out the [sandwiches
