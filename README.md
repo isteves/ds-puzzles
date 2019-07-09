@@ -1,12 +1,14 @@
 Teaching data science with puzzles
 ==================================
 
+### useR! 2019 [slides](https://speakerdeck.com/isteves/teaching-data-science-with-puzzles-fd46c088-e5d5-4297-9629-60e81cc6403c)
+
 ### rstudio::conf 2019, [slides](https://speakerdeck.com/isteves/teaching-data-science-with-puzzles), [video](https://resources.rstudio.com/rstudio-conf-2019/teaching-data-science-with-puzzles)
 
 Of the many coding puzzles on the web, few focus on the programming
 skills needed for handling untidy data. During my summer internship at
 RStudio, I worked with Jenny Bryan to develop a series of data science
-puzzles known as the “Tidies of March.” These puzzles isolate data
+puzzles known as the "Tidies of March." These puzzles isolate data
 wrangling tasks into bite-sized pieces to nurture core data science
 skills such as importing, reshaping, and summarizing data. We also
 provide access to puzzles and puzzle data directly in R through an
@@ -15,7 +17,7 @@ models best practices for both data wrangling and project management.
 
 [![](img/title-slide.png)](https://speakerdeck.com/isteves/teaching-data-science-with-puzzles)
 
-If you’d like to take a closer look at the sandwiches example from the
+If you'd like to take a closer look at the sandwiches example from the
 talk, check out the [sandwiches
 folder](https://github.com/isteves/ds-puzzles/tree/master/11_sandwiches)
 in this repo.
